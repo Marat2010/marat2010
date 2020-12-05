@@ -10,7 +10,24 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
+# from whitenoise.django import DjangoWhiteNoise
+# from whitenoise.django import *
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'marat2010.settings')
 
 application = get_wsgi_application()
+
+# application = DjangoWhiteNoise(application)
+# application = D(application)
+
+# from whitenoise.django import DjangoWhiteNoise
+# import os
+# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "xxxx.settings")
+
+# from django.core.wsgi import get_wsgi_application
+
+# from whitenoise.django import DjangoWhiteNoise
+# from whitenoise.django import whitenoise
+# application = get_wsgi_application()
+# application = DjangoWhiteNoise(application)
+
