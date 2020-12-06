@@ -3335,15 +3335,10 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     }
 }
 #landingpage .sad {
-    /*color: #3b45c1;*/
-    color: #003366;
-    /*width: 285px;*/
-    width: 485px;
+    width: 285px;
     text-align: left;
-}
+    color: #202fbd;
 
-#landingpage .content-r-inner{
-    color: #eea236;
 }
 @media (min-width: 1199px) {
     #landingpage .contentRight h2 {
@@ -3373,16 +3368,12 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
         bottom: auto;
     }
 }
-/*#landingpage .contentRight {*/
-/*    color: #0f0f0f;*/
-/*}*/
-
 #landingpage .contentRight h2 {
-    color: #0f0f0f;
-    font-family: "montserrat", serif;
+    font-family: "montserrat";
     font-weight: 900;
-}
+    color: #202fbd;
 
+}
 @media (max-width: 810px) {
     .team .content-r-inner > h2 {
         text-align: center;
@@ -3525,8 +3516,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
 }
 }
 .landingpage .subtitle {
-    /*color: #fff;*/
-    color: #0f0f0f;
+    color: #fff;
     text-align: center;
 }
 .landingpage h2 {
@@ -3534,9 +3524,10 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     text-align: center;
 }
 .landingpage .sad {
-    /*color: #fff;*/
-    color: #000;
+    color: #202fbd;
     text-align: center !important;
+    color: #202fbd;
+
 }
 .landingpage .link {
     color: #fff;
