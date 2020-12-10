@@ -344,6 +344,16 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
 }
 
 
+
+/*.socialmedia ul li a.github {*/
+/*    !*background: URL(../images/razn/github.png)*!*/
+/*    background-image: url("../images/razn/github.png");*/
+/*    !*background-position: 0px 0px!important;*!*/
+/*}*/
+/*.socialmedia ul li a.github:hover {*/
+/*    !*background-position: -181px -30px!important;*!*/
+/*}*/
+
 .socialmedia ul li a.behence {
     background-position: -227px 2px!important;
 }
