@@ -143,6 +143,10 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
 	4.1. TOP-BAR
 */
 
+tab {
+    display: inline-block;
+    margin-left: 30px;
+}
 
 #top-bar {
     height: 50px;
